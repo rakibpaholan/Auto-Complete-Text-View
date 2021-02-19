@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Auto Complete Text View Practice</string>
+
+
+    <string-array name="country_list">
+
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>China</item>
+        <item>Germany</item>
+        <item>India</item>
+        <item>Myanmar</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>Russia</item>
+
+    </string-array>
+</resources>

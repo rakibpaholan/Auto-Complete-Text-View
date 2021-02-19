@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/welcomescreen"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_margin="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/programmer_name"
+            android:text="Programmer - Rakib"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/practice_name"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/teal_200"
+            android:text="Auto Complete Text View Practice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ProgressBar
+            android:id="@+id/progressBarId"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:progressTint="#FFC107"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
